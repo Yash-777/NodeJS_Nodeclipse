@@ -1,0 +1,47 @@
+{
+  "name": "NodeJS_Nodeclipse",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Node js sample applications",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "3.2.6",
+    "body-parser":"*",
+    "mongoose":"*",
+    "busboy":"*",
+    "gridfs-stream":"^1.1.1",
+    "fs":"*",
+    "connect-multiparty":"*",
+    "mongodb":"2.0.31",
+    
+    "mkdirp": {
+        "version": "*",
+        "resolved": "https://registry.npmjs.org/mkdirp/-/mkdirp-0.3.4.tgz",
+        "integrity": "sha1-+MgdITtymaAx8ZOlfXUqF9L2x9g="
+    },
+    
+    "jade": {
+        "version": "1.11.0",
+        "resolved": "https://registry.npmjs.org/jade/-/jade-1.11.0.tgz",
+        "integrity": "sha1-nIDlOMEtP7lcjZu5VZ+gzAQEBf0=",
+        "dependencies": {
+          "commander": {
+            "version": "2.6.0",
+            "resolved": "https://registry.npmjs.org/commander/-/commander-2.6.0.tgz",
+            "integrity": "sha1-nfflL7Kgyw+4kFjugMMQQiXzfh0="
+          },
+          "mkdirp": {
+            "version": "0.5.1",
+            "resolved": "https://registry.npmjs.org/mkdirp/-/mkdirp-0.5.1.tgz",
+            "integrity": "sha1-MAV0OOrGz3+MR2fzhkjWaX11yQM="
+          }
+        }
+      },
+  },
+  "author": "Yashwanth M",
+  "license": "ISC"
+}
